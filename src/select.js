@@ -297,6 +297,9 @@
     };
 
     ctrl.isActive = function(itemScope) {
+      if ( typeof itemScope[ctrl.itemProperty] === 'undefined') {
+        return false;
+      }
       return ctrl.items.indexOf(itemScope[ctrl.itemProperty]) === ctrl.activeIndex;
     };
 
