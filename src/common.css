@@ -96,7 +96,7 @@
   border-bottom-right-radius: 0;
 }
 
-.ui-select-bootstrap > .ui-select-match {
+.ui-select-bootstrap > .ui-select-match .btn {
   /* Instead of center because of .btn */
   text-align: left;
 }
